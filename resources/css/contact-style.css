@@ -1,0 +1,51 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+html {
+	font-family: ;
+	font-size: ;
+	background: ;
+	color: ;
+	scroll-behavior: smooth;
+}
+
+/* Header */
+header {
+	display: flex;
+	width: 100%;
+	align-items: center;
+}
+
+
+/* Footer */
+footer {
+
+}
+
+/*Desktop*/
+@media only screen and (min-device-width:641px) {
+
+header.mobile {
+	display: none;
+}
+
+header.desktop {
+
+}
+
+}
+
+/* Mobile */
+@media only screen and (max-device-width: 640px) {
+
+header.desktop {
+	display: none;
+}
+
+header.mobile {
+	
+}
+
+}

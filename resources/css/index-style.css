@@ -1,0 +1,63 @@
+/* general */
+
+html {
+	background-image: url("/Users/david/Desktop/naomi/img/DSC_8184-Edit.jpeg");
+	background-size: cover;
+	background-position: ;
+	background-repeat: no-repeat;
+}
+
+main {
+	display: flex;
+}
+
+.description {
+	font-size: 1.5rem;
+	position: absolute;
+}
+
+#enter {
+	position: absolute;
+	font-size: 1rem;
+}
+
+/* Featured media */
+.featuredMedia {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	top: 30rem;
+}
+
+.featuredMedia img {
+	margin: auto;
+	padding: 1rem;
+	width: 50vw;
+
+}
+
+/*Desktop*/
+@media only screen and (min-device-width:641px) {
+
+.description {
+	right: 5vw;
+	left: auto;
+	top: 50vh;
+	bottom: 50vh;
+}
+
+#enter {
+	right: 5vw;
+	left: auto;
+	top: 58vh;
+	bottom: 42vh;
+}
+
+}
+
+/* Mobile */
+@media only screen and (max-device-width: 640px) {
+
+
+
+}

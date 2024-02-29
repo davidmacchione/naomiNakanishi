@@ -1,0 +1,200 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+html {
+	font-family: Helvetica, sans-serif;
+	font-size: 16px;
+	background-color: black;
+	color: whitesmoke;
+	scroll-behavior: smooth;
+}
+
+a {
+	text-decoration: none;
+	color: whitesmoke;
+}
+
+li {
+	text-decoration: none;
+	list-style-type: none;
+}
+
+li:hover {
+	color: lightgrey;
+	transition: all 300ms ease-out;
+}
+
+a:hover {
+	color: lightgrey;
+	transition: all 300ms ease-out;
+}
+
+/* Header */
+header {
+	display: flex;
+	width: 100%;
+	align-items: center;
+}
+
+nav ul {
+	display: flex;
+}
+
+.desktop nav li {
+	font-size: 1.2rem;
+	margin-left: 1.3rem;
+}
+
+.active {
+	color: lightgrey;
+}
+
+/* Media drop down */
+input[type=checkbox] {
+  display: none;
+}
+
+.mediaDropDown {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+	background:;
+}
+
+nav.mediaDropDown {
+	align-items: center;
+	overflow: hidden;
+	background-color:;
+  	backdrop-filter:;
+}
+
+li i {
+	margin-left: 0.3rem;
+}
+
+label {
+	cursor: pointer;
+}
+
+[id="media"]:checked ~ .innerMedia {
+ 	grid-template-rows: 1fr;
+ }
+
+[id="media"]:checked ~ label i {
+ 	transform: rotate(-180deg);
+ 	transition: transform 0.5s;
+}
+
+.innerMedia {
+	display: grid;
+	grid-template-rows: 0fr;
+	transition: grid-template-rows 0.5s ease-out;
+	position: ; /* absolute = would overlap */
+	z-index: 30;
+}
+/* */
+
+/* Footer */
+footer {
+
+}
+
+/*Desktop*/
+@media only screen and (min-device-width:641px) {
+
+header.mobile {
+	display: none;
+}
+
+header.desktop {
+	height: 5rem;
+	flex-direction: row;
+	position: fixed;
+}
+
+main {
+	position: relative;
+	top: 5rem;
+}
+
+.desktop nav {
+	position: relative;
+	margin-right: 4rem;
+	margin-left: auto;
+}
+
+.socialLinks {
+	position: absolute;
+	top: 4rem;
+	right: 3rem;
+}
+
+.socialLinks ul {
+	display: inline-flex;
+}
+
+.socialLinks li {
+
+	margin: 0.5rem;
+}
+
+#title {
+	position: relative;
+	text-align:;
+	margin-left: 4rem;
+	margin-bottom: ;
+}
+
+#title h1 {
+	font-size: 2rem;
+}
+
+nav.media {
+	position: absolute;
+	right: 4rem;
+}
+
+nav.media ul {
+	display: flex;
+	flex-direction: row;
+}
+
+nav.mediaDropDown li {
+	margin-top: .35rem;
+}
+
+.innerMedia {
+	right: 3.8rem; /* positioning */
+	top: 1.9rem;
+	margin-left: ;
+	position: absolute;
+}
+
+nav.mediaDropDown {
+	width: 8.5rem;
+}
+
+nav.mediaDropDown ul{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+}
+
+/* Mobile */
+@media only screen and (max-device-width: 640px) {
+
+header.desktop {
+	display: none;
+}
+
+header.mobile {
+	
+}
+
+}
