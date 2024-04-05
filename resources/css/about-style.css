@@ -1,38 +1,44 @@
-* {
-	padding: 0;
-	margin: 0;
+main {
+	position: relative;
+	top: 3rem;
 }
 
-html {
-	font-family: ;
-	font-size: ;
-	background: ;
-	color: ;
-	scroll-behavior: smooth;
-}
-
-/* Header */
-header {
+#bio {
 	display: flex;
-	width: 100%;
-	align-items: center;
+	margin: auto;
 }
 
+.bioImg {
+	display: flex;
+}
 
-/* Footer */
-footer {
+.bioImg img {
+	margin: auto;
+}
 
+.bioText p {
+	margin: 1rem;
 }
 
 /*Desktop*/
 @media only screen and (min-device-width:641px) {
 
-header.mobile {
-	display: none;
+#bio {
+	flex-direction: row;
+	width: 90%;
 }
 
-header.desktop {
+.bioImg {
+	width: 55%;
+}
 
+.bioImg img {
+	width: 500px;
+	height: 720px;
+}
+
+.bioText {
+	width: 45%;
 }
 
 }
@@ -40,12 +46,8 @@ header.desktop {
 /* Mobile */
 @media only screen and (max-device-width: 640px) {
 
-header.desktop {
-	display: none;
-}
-
-header.mobile {
-	
+#bio {
+	flex-direction: column;
 }
 
 }

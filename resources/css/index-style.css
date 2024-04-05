@@ -3,8 +3,9 @@
 html {
 	background-image: url("/Users/david/Desktop/naomi/img/DSC_8184-Edit.jpeg");
 	background-size: cover;
-	background-position: ;
+	background-attachment: fixed;
 	background-repeat: no-repeat;
+	background-color: transparent;
 }
 
 main {
@@ -26,13 +27,17 @@ main {
 	display: flex;
 	flex-direction: column;
 	position: relative;
-	top: 30rem;
+	top: 110vh;
+	scroll-margin-top: 5rem;
+	padding-bottom: 18vh;
 }
 
-.featuredMedia img {
+.featuredMedia iframe {
 	margin: auto;
 	padding: 1rem;
-	width: 50vw;
+	width: 60vw;
+	height: 35vw;
+
 
 }
 

@@ -123,6 +123,56 @@ input:checked ~ .caption span {
 	font-size: 1.2rem;
 }
 
+/* Writing */
+.writing {
+	display: flex;
+	flex-direction: column;
+}
+
+#womenMeanBusiness {
+	display: flex;
+	flex-direction: row;
+	padding-left: 5rem;
+	padding-right: 5rem;
+	padding-bottom: 3rem;
+}
+
+#womenMeanBusinessText {
+	display: flex;
+	flex-direction: column;
+	width: 65%;
+
+}
+
+#womenMeanBusiness h3 {
+	font-size: 1.8rem;
+	margin-bottom: 1rem;
+}
+
+#womenMeanBusinessText p {
+	margin-bottom: 1rem;
+	font-size: 1.2rem;
+		margin-right: 2rem;
+}
+
+#womenMeanBusinessImages {
+	display: flex;
+	flex-direction: column;
+	width: 35%;
+}
+
+#womenMeanBusinessImages img {
+	width: 350px;
+	padding: 1rem;
+	margin: auto;
+}
+
+#womenMeanBusinessImages span {
+	text-align: center;
+	font-size: .8rem;
+}
+
+
 /*Desktop*/
 @media only screen and (min-device-width:641px) {
 
