@@ -90,7 +90,6 @@ section h2 {
 
 /* expanding images */
 
-
 .caption img {
 	position: relative;
 	margin: auto;
@@ -109,6 +108,7 @@ input:checked ~ .caption {
 	background: black;
 	position: fixed;
 	right: 0vw;
+	top: 0vh;
 }
 
 input:checked ~ .caption img {
@@ -194,8 +194,8 @@ input:checked ~ .caption span {
 
 input:checked ~ .caption {
 	width: 100vw;
-	height: 91vh;
-	top: 9vh;
+	height: 100vh;
+	top: ;
 }
 
 input:checked ~ .caption img {
