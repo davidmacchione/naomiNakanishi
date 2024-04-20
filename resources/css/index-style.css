@@ -1,7 +1,7 @@
 /* general */
 
 html {
-	background-image: url("/Users/david/Documents/GitHub/naomiNakanishi/resources/images/DSC_8184-Edit.jpeg");
+	background-image: url("https://naomi-nakanishi.vercel.app/resources/images/DSC_8184-Edit.jpeg");
 	background-size: cover;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
