@@ -1,6 +1,6 @@
 main {
 	position: relative;
-	top: 3rem;
+	top: 2rem;
 	padding-bottom: 2rem;
 }
 
@@ -35,7 +35,7 @@ main {
 }
 
 .bioImg {
-	width: 45%;
+	width: 40%;
 }
 
 .bioImg img {

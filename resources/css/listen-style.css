@@ -10,57 +10,46 @@
 .listenSection {
 	display: flex;
 	flex-direction: column;
-	width: 1000px;
+	width: 80%;
+	max-width: 1000px;
 	background: rgb(163, 146, 166, 1.0);
 	margin-bottom: 1rem;
-	padding-left: 2rem;
+	padding-left: ;
 }
 
 .title h2 {
-	font-size: 2rem;
+	
 	margin: 0.5rem;
-	margin-left: -1.3rem;
+	margin-left: rem;
 }
 
 .listenMain {
 	display: flex;
-	flex-direction: row;
+	
 	justify-content: center;
-
+	align-items: center;
 	width: ;
 	margin: rem;
 }
 
 .left {
-	width: 274px;
-	margin-right: 2rem;
+	margin-right: rem;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
 
 .left img {
-	width: 274px;
-	height: 274px;;
+	height: ;
+	margin: rem;
 }
 
 .right {
-	width: ;
 	display: flex;
 	flex-direction: column;
-	margin-right: 2rem;
 }
 
-.right iframe {
-	width: 700px;
-	height: 274px;
-}
 
-.button {
-	margin-left: 42px;
-	position: relative;
-	top: -2rem;	
-}
 
 .inner .innerSecond .innerThird {
 	position: relative;
@@ -69,9 +58,6 @@
 .albumContainer {
 	margin-bottom: 2rem;
 	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	align-items: end;
 }
 
 .albumContainer p {
@@ -79,13 +65,11 @@
 }
 
 .albumContainerLeft {
-	width: 65%;
 	display: flex;
 	flex-direction: column;
 }
 
 .albumContainerRight {
-	width: 30%;
 	display: flex;
 	flex-direction: column;
 	margin-left: 1rem;
@@ -164,13 +148,106 @@
 /*Desktop*/
 @media only screen and (min-device-width:641px) {
 
+.title h2 {
+	font-size: 2rem;
+}
 
+.listenMain {
+	flex-direction: row;
+}
+
+.button {
+	margin-left: 42px;
+	position: relative;
+	top: -2rem;	
+}
+
+.left {
+	width: 28%;
+}
+
+.left img {
+	width: 95%;
+}
+
+.right {
+		width: 70%;
+	min-width: 400px;
+	height: 95%;
+}
+
+.right iframe {
+	width: 100%;
+	height: 95%;
+}
+
+.albumContainer {
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: end;
+}
+
+.albumContainerLeft {
+	width: 65%;
+}
+
+.albumContainerRight {
+	width: 30%;
+}
 
 }
 
 /* Mobile */
 @media only screen and (max-device-width: 640px) {
 
+.listenMain {
+	flex-direction: column;
+}
 
+.title h2 {
+	font-size: 1.2rem;
+}
+
+.left {
+	width: 85%;
+	margin-bottom: 1rem;
+}
+
+.left img {
+	width: 95%;
+}
+
+.right {
+	width: 96%;
+	justify-content: center;
+}
+
+.right iframe {
+	width: ;
+	height: 280px;
+}
+
+.button {
+	margin: 10px auto 10px auto;
+}
+
+.albumContainer {
+	flex-direction: column;
+	margin-top: 2rem;
+
+}
+
+.albumContainerLeft {
+	width: 85%;
+	margin-left: 1rem;
+}
+
+.albumContainerLeft h2 {
+	display: none;
+}
+
+.albumContainerRight {
+	width: 90%;
+}
 
 }
