@@ -1,18 +1,16 @@
- .formcarry-container h2 {
-    margin: 0.8rem;
-  }
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
 
     .formcarry-container {
       box-sizing: border-box;
-      background: rgb(31, 36, 31);
-      margin: auto;
-      padding: 1rem;
-      border-radius: 10px;
-      font-family: Montserrat, Helvetica, sans-serif;
+      margin: 40px auto 0 auto;
+      padding: 0;
+      font-family: "Inter", sans-serif;
       font-size: 14px;
       font-weight: 400;
       line-height: 24px;
       letter-spacing: -0.01em;
+
+      width: 400px;
 
       /* NORMAL */
       --fc-border-color: #ECEFF9;
@@ -61,7 +59,7 @@
       border-radius: 6px;
       padding: 8px 12px;
       
-      font-family: Montserrat, sans-serif;
+      font-family: "Inter", sans-serif;
       font-size:14px;
       transition: 125ms background, 125ms color, 125ms box-shadow;
     }
@@ -111,7 +109,7 @@
     }
 
     .formcarry-container button {
-      font-family: Montserrat, sans-serif;
+      font-family: "Inter", sans-serif;
       font-weight: 500;
       font-size: 14px;
       letter-spacing: -0.02em;
@@ -121,13 +119,13 @@
       border-radius: 6px;
       box-sizing: border-box;
       border: 1px solid hsla(var(--fc-primary-hsl));
-      background-color: rgb(133, 133, 133);
+      background-color: hsla(var(--fc-primary-hsl));
       color: #fff;
       cursor: pointer;
     }
 
     .formcarry-container button {
-      font-family: Montserrat, sans-serif;
+      font-family: "Inter", sans-serif;
       font-weight: 500;
       font-size: 14px;
       letter-spacing: -0.02em;
@@ -137,7 +135,7 @@
       border: 0;
       border-radius: 6px;
       box-sizing: border-box;
-      background-color: rgb(133, 133, 133);
+      background-color: hsla(var(--fc-primary-hsl));
       color: #fff;
       cursor: pointer;
       box-shadow: 0 0 0 0 transparent;

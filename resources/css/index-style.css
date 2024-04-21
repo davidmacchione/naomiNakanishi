@@ -2,7 +2,7 @@
 
 html {
 	background-image: url("https://naomi-nakanishi.vercel.app/resources/images/DSC_8184-Edit.jpeg");
-	background-size: cover;
+	
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-color: transparent;
@@ -10,6 +10,7 @@ html {
 
 main {
 	display: flex;
+	flex-direction: column;
 }
 
 .description {
@@ -18,7 +19,7 @@ main {
 }
 
 #enter {
-	position: absolute;
+	position: relative;
 	font-size: 1rem;
 }
 
@@ -28,8 +29,30 @@ main {
 	flex-direction: column;
 	position: relative;
 	top: 110vh;
+	margin: auto;
 	scroll-margin-top: 5rem;
 	padding-bottom: 18vh;
+}
+
+/*Desktop*/
+@media only screen and (min-device-width:641px) {
+
+html {
+	background-size: cover;
+}
+
+.description {
+	right: 4rem;
+	left: auto;
+	top:;
+	bottom: 30vh;
+}
+
+#enter {
+	margin-right: 5vw;
+	margin-left: auto;
+	top: 58vh;
+	bottom: 42vh;
 }
 
 .featuredMedia iframe {
@@ -37,25 +60,6 @@ main {
 	padding: 1rem;
 	width: 60vw;
 	height: 35vw;
-
-
-}
-
-/*Desktop*/
-@media only screen and (min-device-width:641px) {
-
-.description {
-	right: auto;
-	left: auto;
-	top:;
-	bottom: 5vh;
-}
-
-#enter {
-	right: 5vw;
-	left: auto;
-	top: 58vh;
-	bottom: 42vh;
 }
 
 }
@@ -63,6 +67,22 @@ main {
 /* Mobile */
 @media only screen and (max-device-width: 640px) {
 
+html {
+	background-size: cover;
+	background-position-x: 30%;
+}
 
+.featuredMedia iframe {
+	margin: auto;
+	padding: ;
+	width: 95vw;
+	height: 55vw;
+}
+
+#enter {
+	margin: auto;
+	margin-top: 60vh;
+	
+}
 
 }
