@@ -10,7 +10,7 @@
 .listenSection {
 	display: flex;
 	flex-direction: column;
-	width: 80%;
+
 	max-width: 1000px;
 	background: rgb(163, 146, 166, 1.0);
 	margin-bottom: 1rem;
@@ -150,16 +150,21 @@
 
 .title h2 {
 	font-size: 2rem;
+	margin-left: 1rem;
 }
 
 .listenMain {
 	flex-direction: row;
 }
 
+.listenSection {
+	width: 80%;
+}
+
 .button {
-	margin-left: 42px;
+	margin-left: 7%;
 	position: relative;
-	top: -2rem;	
+	top: rem;	
 }
 
 .left {
@@ -178,7 +183,7 @@
 
 .right iframe {
 	width: 100%;
-	height: 95%;
+	height: 267px;
 }
 
 .albumContainer {
@@ -204,6 +209,10 @@
 	flex-direction: column;
 }
 
+.listenSection {
+	width: 90%;
+}
+
 .title h2 {
 	font-size: 1.2rem;
 }
@@ -224,7 +233,7 @@
 
 .right iframe {
 	width: ;
-	height: 280px;
+	height: 300px;
 }
 
 .button {
