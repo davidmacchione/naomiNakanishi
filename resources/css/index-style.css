@@ -46,11 +46,11 @@ html {
 }
 
 .descriptionDesktop {
-	right: 4rem;
+	right: 3.5rem;
 	left: auto;
 	top:;
 	bottom: 30vh;
-	font-size: 1.5rem;
+	font-size: 2rem;
 	position: absolute;
 }
 
@@ -59,10 +59,15 @@ html {
 }
 
 #enter {
-	margin-right: 5vw;
+	margin-right: 4vw;
 	margin-left: auto;
-	top: 58vh;
-	bottom: 42vh;
+	top: 78vh;
+	bottom: 5vh;
+	font-size: 1.5rem;
+}
+
+#enter i {
+	margin-left: .5rem;
 }
 
 .featuredMedia {
@@ -124,8 +129,7 @@ html {
 	position: absolute;
 	text-align: right;
 	bottom: 7rem;
-	margin-left: 55vw;
-	margin-right: 2rem;
+	margin-left: 52vw;
 	
 	font-size: 2.4rem;	
 }
