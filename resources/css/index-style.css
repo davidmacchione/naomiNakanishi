@@ -101,7 +101,7 @@ html {
 }
 
 .featuredMedia {
-	top: 70vh;
+	top: 62vh;
 }
 
 #enter {
@@ -110,7 +110,7 @@ html {
 	align-content: center;
 	justify-content: center;
 	margin: auto;
-	margin-top: 65vh;
+	margin-top: 67vh;
 	font-size: 1.2rem;
 }
 
@@ -127,12 +127,11 @@ html {
 	margin-left: 55vw;
 	margin-right: 2rem;
 	
-	font-size: 1.5rem;	
+	font-size: 2rem;	
 }
 
 .descriptionMobile span {
 	margin-bottom: .4rem;
-	font-size: 1.8rem;
 }
 
 .socialLinks {
