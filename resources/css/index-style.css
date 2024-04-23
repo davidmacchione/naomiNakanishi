@@ -45,12 +45,17 @@ html {
 	background-size: cover;
 }
 
-.description {
+.descriptionDesktop {
 	right: 4rem;
 	left: auto;
 	top:;
 	bottom: 30vh;
 	font-size: 1.5rem;
+	position: absolute;
+}
+
+.descriptionMobile {
+	display: none;
 }
 
 #enter {
@@ -69,6 +74,10 @@ html {
 	padding: 1rem;
 	width: 60vw;
 	height: 35vw;
+}
+
+footer {
+	bottom: -44rem;
 }
 
 }
@@ -99,15 +108,31 @@ html {
 	display: flex;
 	flex-direction: column;
 	align-content: center;
+	justify-content: center;
 	margin: auto;
 	margin-top: 65vh;
 	font-size: 1.2rem;
 }
 
-.description {
-	bottom: 2rem;
-	margin-left: 2rem;
-	font-size: 1rem;
+.descriptionDesktop {
+	display: none;
+}
+
+.descriptionMobile {
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	text-align: right;
+	bottom: 5rem;
+	margin-left: 55vw;
+	margin-right: 2rem;
+	
+	font-size: 1rem;	
+}
+
+.descriptionMobile span {
+	margin-bottom: .4rem;
+	font-size: 1.8rem;
 }
 
 .socialLinks {
