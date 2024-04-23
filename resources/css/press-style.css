@@ -1,22 +1,42 @@
+.pressNav {
+	background: rgb(163, 146, 166, 1.0);
+	width: 92%;
+	height: 7rem;
+	margin: auto;
+	margin-top: 1rem;
+	display: flex;
+	margin-bottom: 2rem;
+}
+
 .pressNav nav {
 	display: flex;
+	width: 100%;
+
+
 }
 
 .pressNav ul {
 	flex-direction: column;
 	margin-left: 4rem;
+	justify-content: center;
+
 }
 
 .pressNav li {
-	margin-bottom: 1rem;
+	margin: .2rem;
 }
 
 section h2 {
 	margin-left: 3rem;
-	margin-bottom: 1rem;
+	margin-bottom: 2rem;
+	font-size: 2rem;
 }
 
 /* Gallery */
+
+.gallery {
+	scroll-margin-top: 2rem;
+}
 
 .photoGallery {
 	display: flex;
@@ -123,15 +143,24 @@ input:checked ~ .caption span {
 	font-size: 1.2rem;
 }
 
+/* EPK */
+.epk {
+	margin-top: 2rem;
+	scroll-margin-top: 2rem;
+}
+
 /* Writing */
 .writing {
 	display: flex;
 	flex-direction: column;
+	background: rgb(163, 146, 166, 1.0);
+	width: 92%;
+	margin: auto;
+	scroll-margin-top: 2rem;
 }
 
 #womenMeanBusiness {
 	display: flex;
-	flex-direction: row;
 	padding-left: 5rem;
 	padding-right: 5rem;
 	padding-bottom: 3rem;
@@ -140,8 +169,6 @@ input:checked ~ .caption span {
 #womenMeanBusinessText {
 	display: flex;
 	flex-direction: column;
-	width: 65%;
-
 }
 
 #womenMeanBusiness h3 {
@@ -158,11 +185,9 @@ input:checked ~ .caption span {
 #womenMeanBusinessImages {
 	display: flex;
 	flex-direction: column;
-	width: 35%;
 }
 
 #womenMeanBusinessImages img {
-	width: 350px;
 	padding: 1rem;
 	margin: auto;
 }
@@ -203,9 +228,26 @@ input:checked ~ .caption img {
 	margin: 1rem;
 }
 
+
+#womenMeanBusiness {
+	flex-direction: row;
+}
+
+
+#womenMeanBusinessText {
+	width: 65%;
+}
+
+#womenMeanBusinessImages {
+	width: 35%;
+}
+
+#womenMeanBusinessImages img {
+	width: 350px;
+}
+
 footer {
 	position: relative;
-	top: 6rem;
 }
 
 
@@ -253,6 +295,23 @@ input:checked ~ .caption .fa-download {
 input:checked ~ .caption span {
 	bottom: 4.5rem;
 	overflow-y: hidden;
+}
+
+#womenMeanBusiness {
+	flex-direction: column;
+	width: 80%;
+}
+
+#womenMeanBusinessText {
+	width: 100%;
+}
+
+#womenMeanBusinessImages {
+	width: 100%;
+}
+
+#womenMeanBusinessImages img {
+	width: 95%;
 }
 
 
