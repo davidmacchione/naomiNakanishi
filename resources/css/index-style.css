@@ -1,8 +1,6 @@
 /* general */
 
 html {
-	
-	
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-color: transparent;
@@ -14,7 +12,7 @@ main {
 }
 
 .description {
-	font-size: 1.5rem;
+
 	position: absolute;
 }
 
@@ -28,10 +26,15 @@ main {
 	display: flex;
 	flex-direction: column;
 	position: relative;
-	top: 110vh;
+
 	margin: auto;
 	scroll-margin-top: 5rem;
 	padding-bottom: 18vh;
+}
+
+footer {
+	position: relative;
+	
 }
 
 /*Desktop*/
@@ -47,6 +50,7 @@ html {
 	left: auto;
 	top:;
 	bottom: 30vh;
+	font-size: 1.5rem;
 }
 
 #enter {
@@ -54,6 +58,10 @@ html {
 	margin-left: auto;
 	top: 58vh;
 	bottom: 42vh;
+}
+
+.featuredMedia {
+	top: 110vh;
 }
 
 .featuredMedia iframe {
@@ -71,7 +79,9 @@ html {
 html {
 	background-image: url("https://naomi-nakanishi.vercel.app/resources/images/DSC_8222-Edit.jpeg");
 	background-size: cover;
-	background-position-x: 40%;
+	background-position-x: -260px;
+	background-position-y: px;
+	background-size: 800px;
 }
 
 .featuredMedia iframe {
@@ -81,10 +91,34 @@ html {
 	height: 55vw;
 }
 
+.featuredMedia {
+	top: 70vh;
+}
+
 #enter {
+	display: flex;
+	flex-direction: column;
+	align-content: center;
 	margin: auto;
-	margin-top: 60vh;
-	
+	margin-top: 65vh;
+	font-size: 1.2rem;
+}
+
+.description {
+	bottom: 2rem;
+	margin-left: 2rem;
+	font-size: 1rem;
+}
+
+.socialLinks {
+	position: ;
+	top: 1rem;
+	margin: auto;
+
+}
+
+footer {
+	bottom: -32rem;
 }
 
 }
