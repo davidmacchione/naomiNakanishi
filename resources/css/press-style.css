@@ -6,6 +6,7 @@
 	margin-top: 1rem;
 	display: flex;
 	margin-bottom: 2rem;
+	margin-top: 2rem;
 }
 
 .pressNav nav {
@@ -27,7 +28,6 @@
 }
 
 section h2 {
-	margin-left: 3rem;
 	margin-bottom: 2rem;
 	font-size: 2rem;
 }
@@ -149,36 +149,41 @@ input:checked ~ .caption span {
 	scroll-margin-top: 2rem;
 }
 
+.epk h3 {
+	margin-left: 2rem;
+}
+
 /* Writing */
 .writing {
 	display: flex;
 	flex-direction: column;
 	background: rgb(163, 146, 166, 1.0);
-	width: 92%;
+	width: 94%;
 	margin: auto;
 	scroll-margin-top: 2rem;
+	margin-top: 2rem;
 }
 
 #womenMeanBusiness {
 	display: flex;
-	padding-left: 5rem;
-	padding-right: 5rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
 	padding-bottom: 3rem;
 }
 
 #womenMeanBusinessText {
 	display: flex;
 	flex-direction: column;
+	justify-content: center;
 }
 
 #womenMeanBusiness h3 {
-	font-size: 1.8rem;
-	margin-bottom: 1rem;
+	font-size: 1.8rem;;
 }
 
 #womenMeanBusinessText p {
 	margin-bottom: 1rem;
-	font-size: 1.2rem;
+	font-size: 1rem;
 		margin-right: 2rem;
 }
 
@@ -189,7 +194,8 @@ input:checked ~ .caption span {
 
 #womenMeanBusinessImages img {
 	padding: 1rem;
-	margin: auto;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #womenMeanBusinessImages span {
@@ -197,9 +203,17 @@ input:checked ~ .caption span {
 	font-size: .8rem;
 }
 
+#womenMeanBusiness .button {
+	margin: auto;	
+}
+
 
 /*Desktop*/
 @media only screen and (min-device-width:641px) {
+
+section h2 {
+	margin-left: 4rem;
+}
 
 /* Gallery */
 
@@ -228,6 +242,10 @@ input:checked ~ .caption img {
 	margin: 1rem;
 }
 
+.writing h2 {
+	margin-left: 1.5rem;
+	margin-top: 1rem;
+}
 
 #womenMeanBusiness {
 	flex-direction: row;
@@ -235,15 +253,16 @@ input:checked ~ .caption img {
 
 
 #womenMeanBusinessText {
-	width: 65%;
+	width: 72%;
+	margin-left: 1rem;
 }
 
 #womenMeanBusinessImages {
-	width: 35%;
+	width: 25%;
 }
 
 #womenMeanBusinessImages img {
-	width: 350px;
+	width: 90%;
 }
 
 footer {
@@ -255,6 +274,10 @@ footer {
 
 /* Mobile */
 @media only screen and (max-device-width: 640px) {
+
+section h2 {
+	margin-left: 1rem;
+}
 
 /* Gallery */
 .gallery {
@@ -297,13 +320,25 @@ input:checked ~ .caption span {
 	overflow-y: hidden;
 }
 
+.writing h2 {
+	margin-bottom: 1rem;
+	margin-top: 1rem;
+}
+
 #womenMeanBusiness {
-	flex-direction: column;
-	width: 80%;
+	flex-direction: column-reverse;
+	width: 88%;
+	justify-content: center;
+	margin: auto;
 }
 
 #womenMeanBusinessText {
 	width: 100%;
+}
+
+#womenMeanBusiness h3 {
+	font-size: 1.5rem;
+	margin-bottom: 1rem;
 }
 
 #womenMeanBusinessImages {

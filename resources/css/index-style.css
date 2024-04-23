@@ -29,7 +29,7 @@ main {
 
 	margin: auto;
 	scroll-margin-top: 5rem;
-	padding-bottom: 18vh;
+	padding-bottom: 4rem;
 }
 
 footer {
@@ -82,7 +82,7 @@ html {
 }
 
 footer {
-	bottom: -44rem;
+	bottom: -43rem;
 }
 
 }
