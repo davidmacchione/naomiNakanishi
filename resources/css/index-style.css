@@ -123,11 +123,11 @@ html {
 	flex-direction: column;
 	position: absolute;
 	text-align: right;
-	bottom: 5rem;
+	bottom: 7rem;
 	margin-left: 55vw;
 	margin-right: 2rem;
 	
-	font-size: 1rem;	
+	font-size: 1.5rem;	
 }
 
 .descriptionMobile span {
