@@ -4,11 +4,18 @@
 }
 
 html {
-	font-family: Helvetica, sans-serif;
+	font-family: Futura, sans-serif;
 	font-size: 16px;
 	background-color: rgb(183, 166, 186, 1.0);
 	color: whitesmoke;
 	scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: 'Lulo Clean Outline Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Lulo Clean Outline Bold'), url('Yellow Design Studio - Lulo Clean Outline Bold.woff') format('woff');
 }
 
 a {
@@ -19,6 +26,7 @@ a {
 li {
 	text-decoration: none;
 	list-style-type: none;
+	font-family: 'Avenir Light';
 }
 
 li:hover {
@@ -61,6 +69,12 @@ header {
 	display: flex;
 	width: 100%;
 	align-items: center;
+}
+
+header h1 {
+	 font-family: 'Lulo Clean Outline Bold';
+    font-style: normal;
+    font-weight: normal;   
 }
 
 nav ul {

@@ -16,24 +16,13 @@ main {
 	position: absolute;
 }
 
-#enter {
-	position: relative;
-	font-size: 1rem;
-}
 
 /* Featured media */
-.featuredMedia {
-	display: flex;
-	flex-direction: column;
-	position: relative;
-
-	margin: auto;
-	scroll-margin-top: 5rem;
-	padding-bottom: 4rem;
-}
 
 footer {
-	position: relative;
+	display: flex;
+position: relative;
+top: 80vh;
 	
 }
 
@@ -41,7 +30,7 @@ footer {
 @media only screen and (min-device-width:641px) {
 
 html {
-	background-image: url("https://naomi-nakanishi.vercel.app/resources/images/DSC_8184-Edit.jpeg");
+	background-image: url("https://naomi-nakanishi.vercel.app/resources/images/HomePage.jpeg");
 	background-size: cover;
 }
 
@@ -52,37 +41,15 @@ html {
 	bottom: 30vh;
 	font-size: 2rem;
 	position: absolute;
+	font-family: Quicksand;
 }
 
 .descriptionMobile {
 	display: none;
 }
 
-#enter {
-	margin-right: 4vw;
-	margin-left: auto;
-	top: 78vh;
-	bottom: 5vh;
-	font-size: 1.5rem;
-}
-
-#enter i {
-	margin-left: .5rem;
-}
-
-.featuredMedia {
-	top: 110vh;
-}
-
-.featuredMedia iframe {
-	margin: auto;
-	padding: 1rem;
-	width: 60vw;
-	height: 35vw;
-}
 
 footer {
-	bottom: -43rem;
 }
 
 }
@@ -98,27 +65,6 @@ html {
 	background-size: 800px;
 }
 
-.featuredMedia iframe {
-	margin: auto;
-	padding: ;
-	width: 95vw;
-	height: 55vw;
-}
-
-.featuredMedia {
-	top: 55vh;
-}
-
-#enter {
-	display: flex;
-	flex-direction: column;
-	align-content: center;
-	justify-content: center;
-	margin: auto;
-	margin-top: 67vh;
-	font-size: 1.2rem;
-}
-
 .descriptionDesktop {
 	display: none;
 }
@@ -130,7 +76,7 @@ html {
 	text-align: right;
 	bottom: 7rem;
 	margin-left: 52vw;
-	
+	font-family: Quicksand;
 	font-size: 2.4rem;	
 }
 
@@ -146,7 +92,7 @@ html {
 }
 
 footer {
-	bottom: -32rem;
+
 }
 
 }

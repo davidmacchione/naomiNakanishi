@@ -28,12 +28,51 @@
 }
 
 section h2 {
-	margin-bottom: 2rem;
+	margin-bottom:;
 	font-size: 2rem;
 }
 
 /* Gallery */
 
+/*exp gallery*/
+label[for="second"] {
+	display: flex;
+	height: 4rem;
+ 	font-size: 1.5rem;
+  align-items: center;
+  color: white; 
+}
+
+label i {
+	margin-left: 1rem;
+}
+
+label[for="second"]:hover {
+	background: rgb(163, 146, 166, 1.0);
+	transition: all 500ms ease-out;
+}
+
+[id="second"]:checked ~ .inner2 {
+ 	grid-template-rows: 1fr;
+}
+
+[id="second"]:checked ~ label.second i {
+ 	transform: rotate(-180deg);
+ 	transition: transform 0.5s;
+}
+
+.photoGallery {
+	display: flex;
+	overflow: hidden;
+}
+
+.inner2 {
+	display: grid;
+	grid-template-rows: 0fr;
+	transition: grid-template-rows 0.5s ease-out;
+}
+
+/* */
 .gallery {
 	scroll-margin-top: 2rem;
 }
@@ -147,6 +186,7 @@ input:checked ~ .caption span {
 .epk {
 	margin-top: 2rem;
 	scroll-margin-top: 2rem;
+	margin-bottom: 2rem;
 }
 
 .epk h3 {
@@ -206,7 +246,6 @@ input:checked ~ .caption span {
 #womenMeanBusiness .button {
 	margin: auto;	
 }
-
 
 /*Desktop*/
 @media only screen and (min-device-width:641px) {

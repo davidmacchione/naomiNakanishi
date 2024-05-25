@@ -28,6 +28,15 @@ main {
 	margin: auto;
 }
 
+.bioText a {
+	color: grey;
+}
+
+.bioText a:hover {
+	color: purple;
+	transition: all 300ms ease-out;
+}
+
 /*Desktop*/
 @media only screen and (min-device-width:641px) {
 
