@@ -59,16 +59,16 @@ footer {
 html {
 	background-image: url("https://naomi-nakanishi.vercel.app/resources/images/HomePage(1).jpeg");
 	background-size: cover;
-	background-position-x: -20px;
+/*	background-position-x: -20px;
 	background-position-y: px;
-	background-size: 600px;
+	background-size: 600px;*/
 }
 
 .descriptionDesktop {
 	display: flex;
 	margin: auto;
 	position: relative;
-	top: -2rem;
+	top: 70vh;
 	font-size: 1.2rem;
 }
 
