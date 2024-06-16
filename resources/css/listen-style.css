@@ -32,6 +32,7 @@
 	margin: rem;
 }
 
+/*
 .left {
 	margin-right: rem;
 	display: flex;
@@ -81,6 +82,7 @@
 }
 
 /* Toggle code*/
+/*
 .inner {
 	display: grid;
 	grid-template-rows: 0fr;
@@ -157,10 +159,20 @@
 	flex-direction: row;
 }
 
-.listenSection {
-	width: 80%;
+.listen {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
 }
 
+iframe {
+	width: 30%;
+	max-width: 300px;
+	min-width: 250px;
+	margin: 1rem;
+}
+
+/*
 .button {
 	margin-left: 7%;
 	position: relative;
@@ -217,6 +229,12 @@
 	font-size: 1.2rem;
 }
 
+iframe {
+	width: 90vw;
+	max-width: 200px;
+	margin: 1rem;
+}
+/*
 .left {
 	width: 85%;
 	margin-bottom: 1rem;

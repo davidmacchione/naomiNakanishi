@@ -1,8 +1,86 @@
+main {
+	position: relative;
+	top: 3rem;
+}
+
+.irisBio {
+	display: flex;
+	margin: auto;
+	max-width: 1200px;
+}
+
+.irisImg {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.irisImg img {
+	width: 90%;
+	margin: auto;
+	max-width: 400px;
+}
+
+.irisText {
+	display: flex;
+	flex-direction: column;
+
+}
+
+.irisText p {
+	margin-bottom: 1rem;
+}
+
+.irisGallery {
+	display: flex;
+}
+
+footer {
+	pso
+}
 
 
 /*Desktop*/
 @media only screen and (min-device-width:641px) {
 
+.irisBio {
+	flex-direction: row;
+	width: 80vw;
+}
+
+.irisImg {
+
+}
+
+.irisText {
+	width: 60%;
+}
+
+.irisGallery {
+	width: 75%;
+	margin: auto;
+}
+
+.featured img {
+	width: 500px;
+	margin-right: 1rem;
+}
+
+.galleryRightside {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.galleryRightside img.portrait {
+	width: 250px;
+	max-width: 300px;
+	margin: 0 ;
+}
+
+.galleryRightside img.landscape {
+	height: 280px;
+	margin: 0 1rem 0 0;
+}
 
 
 }
@@ -10,5 +88,42 @@
 /* Mobile */
 @media only screen and (max-device-width: 640px) {
 
+.irisBio {
+	flex-direction: column;
+	width: 90%;
+}
+
+.irisImg {
+
+}
+
+.irisText {
+	width: 80%;
+	margin: auto;
+
+}
+
+.irisGallery {
+	flex-direction: column;
+	margin-top: 1rem;
+	margin: auto;
+}
+
+.irisGallery img {
+	width: 90%;
+	margin: auto;
+	margin-bottom: 1.5rem;
+}
+
+.featured {
+	display: flex;
+	margin: auto;
+}
+
+.galleryRightside {
+	display: flex;
+	margin: auto;
+	flex-direction: column;
+}
 
 }

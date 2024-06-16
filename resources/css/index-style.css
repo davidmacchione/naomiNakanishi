@@ -12,7 +12,6 @@ main {
 }
 
 .description {
-
 	position: absolute;
 }
 
@@ -37,7 +36,7 @@ html {
 .descriptionDesktop {
 	right: 3.5rem;
 	left: auto;
-	top:;
+	top: 55vh;
 	bottom: 30vh;
 	font-size: 2rem;
 	position: absolute;
@@ -58,19 +57,23 @@ footer {
 @media only screen and (max-device-width: 640px) {
 
 html {
-	background-image: url("https://naomi-nakanishi.vercel.app/resources/images/HomePage.jpeg");
+	background-image: url("https://naomi-nakanishi.vercel.app/resources/images/HomePage(1).jpeg");
 	background-size: cover;
-	background-position-x: -260px;
+	background-position-x: -20px;
 	background-position-y: px;
-	background-size: 800px;
+	background-size: 600px;
 }
 
 .descriptionDesktop {
-	display: none;
+	display: flex;
+	margin: auto;
+	position: relative;
+	top: -2rem;
+	font-size: 1.2rem;
 }
 
 .descriptionMobile {
-	display: flex;
+	display: none;
 	flex-direction: column;
 	position: absolute;
 	text-align: right;
@@ -86,8 +89,9 @@ html {
 
 .socialLinks {
 	position: ;
-	top: 1rem;
+	top: .5rem;
 	margin: auto;
+	transform: scale(.8);
 
 }
 
