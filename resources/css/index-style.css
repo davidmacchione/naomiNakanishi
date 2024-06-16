@@ -15,6 +15,14 @@ main {
 	position: absolute;
 }
 
+a:hover {
+	color: rgba(46, 82, 93, 1.0);
+}
+
+li:hover {
+	color: rgba(46, 82, 93, 1.0);
+}
+
 
 /* Featured media */
 
@@ -68,8 +76,8 @@ html {
 	display: flex;
 	margin: auto;
 	position: relative;
-	top: 70vh;
-	font-size: 1.2rem;
+	top: 60vh;
+	font-size: 1.3rem;
 }
 
 .descriptionMobile {
